@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/logo.png",
+        url: "/icon.png",
         type: "image/png",
       },
     ],
-    apple: "/logo.png",
+    apple: "/icon.png",
   },
   robots: {
     index: true,

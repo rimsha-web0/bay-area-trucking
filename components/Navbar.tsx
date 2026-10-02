@@ -91,7 +91,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(false)}
           >
                 <Image
-  src="/logo.png"
+  src="/icon.png"
   alt=""
   width={64}
   height={64}
