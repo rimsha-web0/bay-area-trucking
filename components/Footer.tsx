@@ -118,7 +118,12 @@ export default function Footer() {
               <p>
                 <strong>Phone — temporary:</strong>
                 <br />
-                +1 (202) 555-0147
+                +1 (438) 797-5676
+              </p>
+              <p>
+                <strong>Email:</strong>
+                <br />
+                info@bayareainterstatetrucking.com
               </p>
             </address>
 

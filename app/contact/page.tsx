@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     "Contact Bay Area trucking to the interstate LLC in Oak Hills, California, about transportation inquiries, routes, and scheduling.",
 };
 
+const businessEmail = "info@bayareainterstatetrucking.com";
+const temporaryPhone = "+1 (438) 797-5676";
+
 export default function ContactPage() {
   return (
     <>
@@ -57,6 +60,25 @@ export default function ContactPage() {
             </div>
 
             <div className="contact-detail">
+              <h3>Email address</h3>
+
+              <a
+                href={`mailto:${businessEmail}`}
+                className="text-link"
+                style={{ overflowWrap: "anywhere" }}
+              >
+                {businessEmail}
+              </a>
+            </div>
+
+            <div className="contact-detail">
+              <h3>Phone number</h3>
+
+              <p>{temporaryPhone}</p>
+
+            </div>
+
+            <div className="contact-detail">
               <h3>Business address</h3>
 
               <address>
@@ -73,9 +95,15 @@ export default function ContactPage() {
 
               <ul className="feature-list">
                 <li>Pickup and delivery locations</li>
-                <li>Shipment type and handling requirements</li>
-                <li>Preferred pickup and delivery dates</li>
-                <li>A reference for any existing inquiry</li>
+                <li>
+                  Shipment type and handling requirements
+                </li>
+                <li>
+                  Preferred pickup and delivery dates
+                </li>
+                <li>
+                  A reference for any existing inquiry
+                </li>
               </ul>
             </div>
 
@@ -105,7 +133,7 @@ export default function ContactPage() {
                 Learn how your information is handled and
                 review the terms of our SMS program.
               </p>
-npm run build
+
               <div className="button-row">
                 <Link
                   href="/privacy-policy"

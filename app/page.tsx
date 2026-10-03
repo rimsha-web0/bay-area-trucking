@@ -5,7 +5,7 @@ const truckingPhoto =
   "https://images.unsplash.com/photo-1736140456900-f9fcd772d85c?auto=format&fit=crop&w=2000&q=85";
 
 const businessName = "Bay Area trucking to the interstate LLC";
-const temporaryPhone = "+1 (202) 555-0147";
+const temporaryPhone = "+1 (438) 797-5676";
 
 const inquiryTopics = [
   {
@@ -239,17 +239,6 @@ export default function HomePage() {
               <span>Our business location</span>
               <strong>Oak Hills, California</strong>
             </div>
-
-            <figcaption className="photo-credit">
-              Illustrative photograph by{" "}
-              <a
-                href="https://unsplash.com/photos/OdpwaL04yYI"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Peter Robbins / Unsplash
-              </a>
-            </figcaption>
           </figure>
         </div>
       </section>

@@ -38,7 +38,7 @@ export default function TermsAndConditionsPage() {
           aria-label="Terms and conditions"
         >
           <p>
-            <strong>Last updated:</strong> October 2, 2026
+            <strong>Last updated:</strong> September 20, 2026
           </p>
 
           <h2>1. Business information</h2>
@@ -224,16 +224,6 @@ export default function TermsAndConditionsPage() {
             promotional purposes.
           </p>
 
-          <h2>11. Website content and external links</h2>
-
-          <p>
-            Illustrative photographs on this website do
-            not represent ownership of the vehicles or
-            equipment pictured. Third-party content remains
-            subject to its applicable ownership and
-            licensing terms.
-          </p>
-
           <p>
             External links may lead to websites operated
             by other parties. Their content, availability,
@@ -241,7 +231,7 @@ export default function TermsAndConditionsPage() {
             own terms.
           </p>
 
-          <h2>12. Changes to these terms</h2>
+          <h2>11. Changes to these terms</h2>
 
           <p>
             We may update these terms to reflect changes
