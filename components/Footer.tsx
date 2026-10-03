@@ -116,7 +116,7 @@ export default function Footer() {
               </p>
 
               <p>
-                <strong>Phone — temporary:</strong>
+                <strong>Phone : </strong>
                 <br />
                 +1 (438) 797-5676
               </p>

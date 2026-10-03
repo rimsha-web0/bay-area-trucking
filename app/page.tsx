@@ -134,7 +134,6 @@ export default function HomePage() {
 
             <div className="hero__contact">
               <span className="hero__contact-label">
-                Business phone — temporary
               </span>
               <strong>{temporaryPhone}</strong>
             </div>
@@ -469,7 +468,7 @@ export default function HomePage() {
               </p>
 
               <p className="cta-phone">
-                Phone — temporary: {temporaryPhone}
+                Phone : {temporaryPhone}
               </p>
             </div>
 
